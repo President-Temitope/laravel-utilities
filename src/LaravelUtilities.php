@@ -34,7 +34,8 @@ trait LaravelUtilities
      * @param $model
      * @return mixed
      */
-    public function queryWithACondition($condition, $query, $model,array $with){
+    public function queryWithACondition($condition, $query, $model, array $with)
+    {
         return $model::with($with)->where($condition, $query)->simplePaginate(25);
     }
 
@@ -44,7 +45,7 @@ trait LaravelUtilities
         return $model::where('id', $id)->get();
     }
 
-    public function findTheFirstOne($condition, $query, $model,array $with)
+    public function findTheFirstOne($condition, $query, $model, array $with)
     {
         return $model::with($with)->where($condition, $query)->first();
     }
@@ -52,7 +53,8 @@ trait LaravelUtilities
     /**
      * Dynamic datatable
      */
-    public function datatable($data,array $actions){
+    public function datatable($data, array $actions)
+    {
         /*return Datatables::of($data)
             ->addIndexColumn()
             ->addColumn('action', function($row){
@@ -61,7 +63,5 @@ trait LaravelUtilities
             })
             ->rawColumns(['action'])
             ->make(true);*/
-
     }
-
 }
