@@ -2,9 +2,9 @@
 
 namespace Callmehalpha\LaravelUtilities;
 
+use Callmehalpha\LaravelUtilities\Commands\LaravelUtilitiesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Callmehalpha\LaravelUtilities\Commands\LaravelUtilitiesCommand;
 
 class LaravelUtilitiesServiceProvider extends PackageServiceProvider
 {
