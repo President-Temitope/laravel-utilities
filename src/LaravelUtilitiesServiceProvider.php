@@ -16,7 +16,7 @@ class LaravelUtilitiesServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laravel-utilities')
+            ->name('utilities')
             ->hasConfigFile()
             ->hasViews()
             ->hasMigration('create_laravel-utilities_table')

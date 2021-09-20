@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class LaravelUtilitiesCommand extends Command
 {
-    public $signature = 'laravel-utilities';
+    public $signature = 'utilities';
 
     public $description = 'My command';
 

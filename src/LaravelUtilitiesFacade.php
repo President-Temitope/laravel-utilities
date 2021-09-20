@@ -11,6 +11,6 @@ class LaravelUtilitiesFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'laravel-utilities';
+        return 'utilities';
     }
 }

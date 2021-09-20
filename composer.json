@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "callmehalpha/laravel-utilities",
+    "description": "Basic laravel tricks to quick start an app dev",
     "keywords": [
-        ":vendor_name",
+        "callmehalpha",
         "laravel",
-        ":package_slug"
+        "laravel-utilities"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/callmehalpha/laravel-utilities",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Yisau Abdulazeez",
+            "email": "hello@callmehalpha.me",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Callmehalpha\\LaravelUtilities\\": "src",
+            "Callmehalpha\\LaravelUtilities\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Callmehalpha\\LaravelUtilities\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Callmehalpha\\LaravelUtilities\\LaravelUtilitiesServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelUtilities": "Callmehalpha\\LaravelUtilities\\LaravelUtilitiesFacade"
             }
         }
     },
