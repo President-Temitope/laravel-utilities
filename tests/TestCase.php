@@ -2,9 +2,9 @@
 
 namespace Callmehalpha\LaravelUtilities\Tests;
 
+use Callmehalpha\LaravelUtilities\LaravelUtilitiesServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Callmehalpha\LaravelUtilities\LaravelUtilitiesServiceProvider;
 
 class TestCase extends Orchestra
 {
